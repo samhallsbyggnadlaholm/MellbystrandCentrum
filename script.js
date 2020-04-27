@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: '3DmodelHaga',
             location: {
-                lat: 56.511580,
-                lng: 13.046165,
+                lat: 56.502320,
+                lng: 12.999515,
             }
         },
     ];
