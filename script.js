@@ -27,7 +27,6 @@ function renderPlaces(places) {
         model.setAttribute('gltf-model', './assets/3DmodelHaga.gltf');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '0.1 0.1 0.1');
-		model.setAttribute('position', '0 30 0');
 
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
