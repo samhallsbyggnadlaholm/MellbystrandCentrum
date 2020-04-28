@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: '3DmodelHaga',
             location: {
-                lat: 56.502320,
-                lng: 12.999515,
+                lat: 56.511456,
+                lng: 13.046715,
             }
         },
     ];
@@ -26,7 +26,8 @@ function renderPlaces(places) {
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         model.setAttribute('gltf-model', './assets/3DmodelHaga.gltf');
         model.setAttribute('animation-mixer', '');
-        model.setAttribute('scale', '1.0 1.0 1.0');
+        model.setAttribute('scale', '100 100 100');
+		model.setAttribute('position', '0 0 0');
 
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
