@@ -27,7 +27,7 @@ function renderPlaces(places) {
         model.setAttribute('gltf-model', './assets/cube.gltf');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '100 100 100');
-		model.setAttribute('position', '0 30 0');
+		model.setAttribute('position', '0 10 0');
 		model.setAttribute('distancemsg', '850');
 
         model.addEventListener('loaded', () => {
