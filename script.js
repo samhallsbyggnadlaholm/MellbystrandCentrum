@@ -26,7 +26,7 @@ function renderPlaces(places) {
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         model.setAttribute('gltf-model', './assets/cube.gltf');
         model.setAttribute('animation-mixer', '');
-        model.setAttribute('scale', '1 1 1');
+        model.setAttribute('scale', '100 100 100');
 		model.setAttribute('position', '0 2 0');
 		model.setAttribute('distancemsg', '850');
 
