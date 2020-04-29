@@ -6,7 +6,7 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: '3DmodelHaga',
+            name: 'cube',
             location: {
                 lat: 56.511325,
                 lng: 13.046192,
@@ -24,7 +24,7 @@ function renderPlaces(places) {
 
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
-        model.setAttribute('gltf-model', './assets/3DmodelHaga.gltf');
+        model.setAttribute('gltf-model', './assets/cube.gltf');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '1 1 1');
 		model.setAttribute('position', '0 2 0');
