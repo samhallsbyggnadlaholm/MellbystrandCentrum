@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: 'cube',
             location: {
-                lat: 56.511325,
-                lng: 13.046192,
+                lat: 56.511594,
+                lng: 13.046139,
             }
         },
     ];
