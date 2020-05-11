@@ -1,0 +1,158 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5125,
+            "count" : 344784,
+            "max" : [
+                344217
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 344218,
+            "max" : [
+                256.5854797363281,
+                3.794227123260498,
+                300.0417175292969
+            ],
+            "min" : [
+                -287.5041198730469,
+                -2.205772876739502,
+                -280.5695495605469
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 344218,
+            "max" : [
+                0.8777087926864624,
+                1.0,
+                0.4784933924674988
+            ],
+            "min" : [
+                -0.6487062573432922,
+                0.02591162547469139,
+                -0.32121169567108154
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 344218,
+            "max" : [
+                1.0,
+                0.6852701902389526,
+                0.06315538287162781,
+                1.0
+            ],
+            "min" : [
+                0.029329173266887665,
+                -0.9995697736740112,
+                -0.24742397665977478,
+                1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 344218,
+            "max" : [
+                0.4102259576320648,
+                0.502045214176178
+            ],
+            "min" : [
+                0.2240227609872818,
+                0.27787142992019653
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1379136,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4130616,
+            "byteOffset" : 1379136,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4130616,
+            "byteOffset" : 5509752,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5507488,
+            "byteOffset" : 9640368,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2753744,
+            "byteOffset" : 15147856,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 17901600,
+            "uri" : "MellbyC.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "TIN",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "TIN",
+            "translation" : [
+                15.459308624267578,
+                6.205772876739502,
+                -9.736074447631836
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}
