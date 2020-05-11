@@ -6,10 +6,10 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'EkKartaModel',
+            name: 'Magnemite',
             location: {
-                lat: 56.511664,
-                lng: 13.046009,
+                lat: 56.511580,
+                lng: 13.046125,
             }
         },
     ];
@@ -24,7 +24,7 @@ function renderPlaces(places) {
 
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
-        model.setAttribute('gltf-model-model', './assets/scene.gltf');
+        model.setAttribute('gltf-model', './assets/magnemite/scene.gltf');
         model.setAttribute('rotation', '0 180 0');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '0.5 0.5 0.5');
