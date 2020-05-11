@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: 'EkKartaModel',
             location: {
-                lat: 56.511876,
-                lng: 13.046067,
+                lat: 56.511577,
+                lng: 13.046140,
             }
         },
     ];
