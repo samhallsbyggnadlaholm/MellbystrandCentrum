@@ -149,7 +149,7 @@
                 {
                     "attributes" : {
                         "NORMAL" : 2,
-                        "POSITION" : 0,
+                        "POSITION" : 20,
                         "TANGENT" : 3,
                         "TEXCOORD_0" : 4
                     },
