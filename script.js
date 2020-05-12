@@ -9,7 +9,7 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Pokèmon',
+            name: 'Kartor',
             location: {
                  lat: 56.228557,
                  lng: 12.830379,
