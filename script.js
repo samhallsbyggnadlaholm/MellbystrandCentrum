@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: 'EkonomiskKarta',
             location: {
-                lat: 56.511580,
-                lng: 13.046125,
+                lat: 56.228557,
+                lng: 12.830379,
             }
         },
     ];
