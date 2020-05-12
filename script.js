@@ -21,13 +21,13 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './assets/orto.glb',
-        scale: '10 10 10',
+        scale: '5 5 5',
         info: 'Ortofoto 2020',
         rotation: '0 180 0',
     },
     {
         url: './assets/EkKartaModel.glb',
-        scale: '10 10 10',
+        scale: '5 5 5',
         rotation: '0 180 0',
         info: 'Ekonomisk karta 1920',
     },
