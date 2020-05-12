@@ -21,15 +21,15 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './assets/orto.glb',
-        scale: '0.5 0.5 0.5',
-        info: 'Magnemite, Lv. 5, HP 10/10',
-        rotation: '0 180 0',
+        scale: '1 1 1',
+        info: 'Ortofoto 2020',
+        rotation: '0 0 0',
     },
     {
         url: './assets/EkKartaModel.glb',
-        scale: '0.2 0.2 0.2',
-        rotation: '0 180 0',
-        info: 'Articuno, Lv. 80, HP 100/100',
+        scale: '1 1 1',
+        rotation: '0 0 0',
+        info: 'Ekonomisk karta 1920',
     },
 ];
 
@@ -65,7 +65,7 @@ function renderPlaces(places) {
 
         setModel(models[modelIndex], model);
 
-        model.setAttribute('animation-mixer', '');
+        //model.setAttribute('animation-mixer', '');
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
             var entity = document.querySelector('[gps-entity-place]');
