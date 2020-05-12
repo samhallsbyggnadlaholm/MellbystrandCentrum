@@ -144,21 +144,8 @@
     ],
     "meshes" : [
         {
-            "name" : "EkonomiskKarta1920",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "NORMAL" : 2,
-                        "POSITION" : 1,
-                        "TANGENT" : 3,
-                        "TEXCOORD_0" : 4
-                    },
-                    "indices" : 0,
-                    "material" : 0
-                }
-            ]
-        }
-    ],
+            "name" : "EkonomiskKarta1920",     
+    },
     "nodes" : [
         {
             "mesh" : 0,
