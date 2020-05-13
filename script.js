@@ -11,8 +11,8 @@ function staticLoadPlaces() {
         {
             name: 'Kartor',
             location: {
-                 lat: 56.229367,
-                 lng: 12.831578,
+                 lat: 56.229340,
+                 lng: 12.830167,
             },
         },
     ];
