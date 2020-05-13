@@ -15,6 +15,11 @@ function staticLoadPlaces() {
                  lng: 12.832376,
             },
         },
+    ];
+}
+
+function staticLoadPlaces() {
+    return [
 		{
             name: 'Ekonomisk karta 1920',
             location: {
