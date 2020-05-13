@@ -30,6 +30,7 @@ var models = [
         url: './assets/EkKartaModel.glb',
         scale: '10 10 10',
         info: 'Ekonomisk karta 1920',
+		rotation: '0 90 0'
 		//position: '0 0 0',
     },
 ];
