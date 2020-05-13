@@ -23,13 +23,13 @@ var models = [
         url: './assets/orto.glb',
         scale: '10 10 10',
         info: 'Ortofoto 2020',
-		position: '0 90 0',
+		position: '50 90 0',
     },
     {
         url: './assets/EkKartaModel.glb',
         scale: '10 10 10',
         info: 'Ekonomisk karta 1920',
-		position: '0 90 0',
+		position: '50 90 0',
     },
 ];
 
