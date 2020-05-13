@@ -1,6 +1,6 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = 'Kartor';
+    button.innerText = 'Kartor2';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
@@ -9,7 +9,7 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Kartor',
+            name: 'Kartor2',
             location: {
                  lat: 56.226867,
                  lng: 12.833007,
