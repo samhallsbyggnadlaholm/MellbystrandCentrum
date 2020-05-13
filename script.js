@@ -9,22 +9,10 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Ortofoto 2020',
+            name: 'Kartor',
             location: {
                  lat: 56.231527,
                  lng: 12.832376,
-            },
-        },
-    ];
-}
-
-function staticLoadPlaces() {
-    return [
-		{
-            name: 'Ekonomisk karta 1920',
-            location: {
-                 lat: 56.226867,
-                 lng: 12.833007,
             },
         },
     ];
