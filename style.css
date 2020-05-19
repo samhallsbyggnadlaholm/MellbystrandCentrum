@@ -26,6 +26,12 @@ button {
     outline: none;
 }
 
+@media all and (max-width:30em){
+a.button{
+display:block;
+margin:0.2em auto;
+}
+
 .instructions {
     position: fixed;
     top: 5%;
