@@ -12,7 +12,7 @@
 }
 
 button {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     border: 2px solid white;
