@@ -49,7 +49,7 @@ var renderPlace = function(place) {
     model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
     model.setAttribute('gltf-model', 'asset.glb');
     model.setAttribute('rotation', '0 0 0');
-    model.setAttribute('scale', '1 1 1');
+    model.setAttribute('scale', '0.2 0.2 0.2');
 
     model.addEventListener('loaded', () => {
         window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
