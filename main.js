@@ -10,8 +10,8 @@ var loadPlaces = function(options) {
             resolve({
                 // Location of Area
                 coords: {
-                    latitude: 56.22880303003221,
-                    longitude: 12.830753442703985,
+                    latitude: 56.22867214279075,
+                    longitude: 12.830506282762506,
                 }
             });
         }
